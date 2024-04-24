@@ -15,9 +15,11 @@ When configuring the Nano v3.1 in Arduino IDE or other development environments,
 Locating Configuration Files
 To adjust the configuration, locate the Boards.txt file. On Windows 10 and 11, this file is typically found at:
 
-``C:\Users\{YourUserName}\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6``
+````
+C:\Users\{YourUserName}\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6
+````
 
-Replace ``{YourUserName}`` with your actual username on your computer.
+Replace ````{YourUserName}```` with your actual username on your computer.
 
 Adding Configuration
 To add the configuration for the Nano v3.1, open Boards.txt and add the relevant settings. Ensure that the configuration is placed at the top of the file for easy access.
