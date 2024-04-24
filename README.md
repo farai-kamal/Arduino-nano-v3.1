@@ -13,14 +13,14 @@ Configuration Clarification
 When configuring the Nano v3.1 in Arduino IDE or other development environments, it's important to note that although it's set to operate at 8MHz internally, the actual frequency is 4MHz due to the divider by 2.
 
 Locating Configuration Files
-To adjust or verify the configuration, locate the Boards.txt file. On Windows 10 and 11, this file is typically found at:
+To adjust the configuration, locate the Boards.txt file. On Windows 10 and 11, this file is typically found at:
 
 ``C:\Users\{YourUserName}\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6``
 
 Replace ``{YourUserName}`` with your actual username on your computer.
 
 Adding Configuration
-To add or modify the configuration for the Nano v3.1, open Boards.txt and add the relevant settings. Ensure that the configuration is placed at the top of the file for easy access.
+To add the configuration for the Nano v3.1, open Boards.txt and add the relevant settings. Ensure that the configuration is placed at the top of the file for easy access.
 
 Arduino Nano v3.1 Configuration
 
